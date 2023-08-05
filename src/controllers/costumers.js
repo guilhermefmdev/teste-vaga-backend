@@ -24,17 +24,25 @@ async function post(req, res) {
         phone,
         adress,
     })
+    
+    const costumerExists = await CostumersModel.findOne({ email: email,})
 
-    costumer.save()
-    res.send({
-        msg: 'Cliente registrado com sucesso!'
-    })
+    if(costumerExists){
+        res.send({ msg: 'Já há um cliente registrado com esse E-mail.'})
+    } else {
+        costumer.save()
+        res.send({
+            msg: 'Cliente registrado com sucesso!'
+        })
+    }
+
+
 }
 
 async function remove(req, res) {
     const { id } = req.params
     const remove = await CostumersModel.deleteOne({ _id: id })
-    const msg = remove.acknowledged ? 'success' : 'error'
+    const msg = remove.deletedCount == 1 ? 'success' : 'error'
     res.send({
         msg
     })
