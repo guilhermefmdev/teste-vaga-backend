@@ -30,8 +30,6 @@ async function post(req, res) {
             msg: 'Produto registrado com sucesso!'
         })
     }
-
-
 }
 
 async function remove(req, res) {
