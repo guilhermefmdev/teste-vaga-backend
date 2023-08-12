@@ -18,7 +18,7 @@ As mesmas rotas se aplicam ao método __POST__:
 - `/orders` para o __registro__ de __`pedidos`__.
 
 E os campos para cada módulo devem ser:
-- Cliente: `nome`, `email` e `telefone`;
+- Cliente: `nome`, `email`, `telefone` e `endereço`;
 - Produto: `nome` e `preço`;
 - Pedido: `ID do cliente` e `ID do produto`.
 
