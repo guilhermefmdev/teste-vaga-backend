@@ -22,7 +22,7 @@ E os campos preenchidos para cada módulo devem ser:
 - Produto: `nome` e `preço`;
 - Pedido: `ID do cliente` e `ID do produto`.
 
-Também é possível excluir os itens com o método __POST__, inserindo o `_ID` do item desejado para a remoção na rota da request:
+Também é possível excluir os itens com o método __DELETE__, inserindo o `_ID` do item desejado para a remoção na rota da request:
 - `/costumers/:id` para a __remoção__ de __`clientes`__;
 - `/products/:id` para a __remoção__  de __`produtos`__;
 - `/orders/:id` para a __remoção__  de __`pedidos`__.
