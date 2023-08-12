@@ -5,7 +5,7 @@ Nesse teste, o objetivo era elaborar uma aplicação no estilo <i>RESTful</i> pa
 # Como utilizar?
 Antes de tudo verifique se a conexão ao banco de dados `MongoDB` e suas dependências foi sucedida.
 
-A listagem dos módulos é dada pela requisição __GET__ às seguintes rotas:
+A listagem dos itens de cada módulo é dada pela requisição __GET__ às seguintes rotas:
 - `/costumers` para a __listagem__ de __`clientes`__;
 - `/products` para a __listagem__ de __`produtos`__;
 - `/orders` para a __listagem__ de __`pedidos`__.
