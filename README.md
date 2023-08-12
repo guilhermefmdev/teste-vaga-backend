@@ -17,7 +17,7 @@ As mesmas rotas se aplicam ao método __POST__:
 - `/products` para o __registro__ de __`produtos`__;
 - `/orders` para o __registro__ de __`pedidos`__.
 
-E os campos para cada módulo devem ser:
+E os campos preenchidos para cada módulo devem ser:
 - Cliente: `nome`, `email`, `telefone` e `endereço`;
 - Produto: `nome` e `preço`;
 - Pedido: `ID do cliente` e `ID do produto`.
