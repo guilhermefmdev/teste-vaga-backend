@@ -1,7 +1,18 @@
 # teste-vaga-backend
 Seja bem vindo ao meu __Teste para vaga de Desenvolvedor Backend__!
 
-Nesse teste, o objetivo era elaborar uma aplicação no estilo <i>RESTful</i> para o gerenciamento de: `clientes`, `pedidos` e `produtos`
+Nesse teste, o objetivo era elaborar uma aplicação no estilo <i>RESTful</i> para o gerenciamento de um <i>e-comerce</i>.
+
+# O que é possível fazer?
+- [x] Registro de clientes
+- [x] Registro de Produtos
+- [x] Listagem de clientes
+- [x] Listagem de produtos
+
+Tendo o cliente cadastrado e os produtos já registrados, é possível realizar:
+- [x] Criação de pedidos
+- [x] Exlusão de pedidos
+
 # Como utilizar?
 Antes de tudo verifique se a conexão ao banco de dados `MongoDB` e suas dependências foi sucedida.
 
