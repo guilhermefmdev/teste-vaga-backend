@@ -4,12 +4,17 @@ Seja bem vindo ao meu __Teste para vaga de Desenvolvedor Backend__!
 Nesse teste, o objetivo era elaborar uma aplicação no estilo <i>RESTful</i> para o gerenciamento de um <i>e-comerce</i>.
 
 # O que é possível fazer?
-- [x] Registro de clientes
-- [x] Registro de produtos
-- [x] Listagem de clientes
-- [x] Listagem de produtos
-- [X] Exclusão de produtos
-- [X] Exclusão de clientes
+__Registro de:__
+- [x] clientes
+- [x] produtos
+      
+__Listagem de:__
+- [x] clientes
+- [x] produtos
+
+__Exclusão de:__
+- [x] clientes
+- [x] produtos
 
 Tendo o cliente cadastrado e os produtos já registrados, é possível realizar:
 - [x] Criação de pedidos
