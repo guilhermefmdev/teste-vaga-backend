@@ -5,9 +5,11 @@ Nesse teste, o objetivo era elaborar uma aplicação no estilo <i>RESTful</i> pa
 
 # O que é possível fazer?
 - [x] Registro de clientes
-- [x] Registro de Produtos
+- [x] Registro de produtos
 - [x] Listagem de clientes
 - [x] Listagem de produtos
+- [X] Exclusão de produtos
+- [X] Exclusão de clientes
 
 Tendo o cliente cadastrado e os produtos já registrados, é possível realizar:
 - [x] Criação de pedidos
