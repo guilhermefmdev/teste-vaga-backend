@@ -21,7 +21,11 @@ Tendo o cliente cadastrado e os produtos já registrados, é possível realizar:
 - [x] Exlusão de pedidos
 
 # Como utilizar?
-Antes de tudo verifique se a conexão ao banco de dados `MongoDB` e suas dependências foi sucedida.
+
+Abra o repositório no seu editor de código e rode o comando `npm run dev` no terminal.
+
+Se o servidor estiver rodando corretamente, e a conexão com o banco de dados for sucedida, a API estará pronta para ser utilizada.
+
 
 A listagem dos itens de cada módulo é dada pela requisição __GET__ às seguintes rotas:
 - `/costumers` para a __listagem__ de __`clientes`__;
